@@ -1,0 +1,36 @@
+*,
+*::before,
+*::after {
+  position: relative;
+  box-sizing: border-box;
+}
+
+:root {
+  --duration: .8s;
+  --easing: cubic-bezier(.5,0,.5,1);
+  --color-red: #E66047;
+}
+
+html,
+body {
+  background: var(--color-red);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#app {
+  background: white;
+  width: 50vmin;
+  height: 90vmin;
+  box-shadow: 0 5vmin 8vmin rgba(0, 0, 0, 0.3);
+  padding: 1em;
+  border-radius: 0.5em;
+}
+
+[data-view]:not([data-active]) {
+  visibility: hidden;
+}
+
+/*# sourceMappingURL=style.css.map */
