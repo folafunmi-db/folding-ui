@@ -1,0 +1,22 @@
+*,
+*::before,
+*::after {
+    position: relative;
+    box-sizing: border-box;
+}
+
+:root {
+    --duration: .8s;
+    --easing: cubic-bezier(.5,0,.5,1);
+    --color-red: E66047;
+}
+
+html,
+body {
+    background: var(--color-red);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
