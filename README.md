@@ -1,1 +1,1 @@
-Code for UI animation. A tutorial by keyframers.
+Code for folding UI animation. A tutorial by keyframers.
