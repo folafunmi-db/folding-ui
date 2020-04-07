@@ -2,6 +2,8 @@ console.clear();
 const elApp = document.querySelector('#app');
 
 function activate(state) {
+
+    elApp.dataset.prevState = elApp.dataset.state;
     elApp.dataset.state = state;
 
     document.querySelectorAll(`[data-active]`).forEach(el => delete el.dataset.active);
